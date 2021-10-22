@@ -1,0 +1,89 @@
+img#cardOnHand {
+    width: 70px;
+    height: 100px;
+    margin: 3px;
+}
+
+div#hotbar:hover {
+    background: red;
+}
+
+.cardTooltip.hidden {
+    /*display:none;*/
+    animation: fadeOut ease 0.2s;
+    opacity: 0;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-ms-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+/*Hand*/
+a#handCard:hover {
+    transition: top 0.2s ease 0s;
+    top: -10px;
+}
+
+a#handCard {
+    margin-left: -40px;
+    z-index: 1;
+    position: relative;
+    top: 0px;
+}
+
+.firstcard {
+    margin-left: 43px !important;
+}
+
+/*TILES*/
+div#takeCardButton {
+    width: 72px;
+    position: relative;
+    top: 100%;
+    text-align: -webkit-center;
+}

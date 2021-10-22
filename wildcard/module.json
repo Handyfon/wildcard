@@ -1,0 +1,16 @@
+{
+	"name": "wildcard",
+	"title": "WildCard",
+	"description": "Quality of cards",
+	"version": "0.1",
+	"author": "Handyfon",
+	"esmodules": ["WildCard.js"],
+	"styles": ["WildCard.css"],
+	"packs": [],
+	"socket": true,
+    "url": "https://github.com/Handyfon/Farchievements/tree/master",
+    "manifest": "https://raw.githubusercontent.com/Handyfon/Farchievements/master/module.json",
+    "download": "https://raw.githubusercontent.com/Handyfon/Farchievements/master/farchievements.zip",
+	"minimumCoreVersion": "0.6.0",
+	"compatibleCoreVersion": "0.8.9"
+}
